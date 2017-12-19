@@ -1,0 +1,216 @@
+name: ScyleUHC
+version: 1.1
+author: xTimDevx
+main: me.xtimdevx.buzzarduhc.Main
+depend: [TwitterAPI]
+
+commands:
+   uhc:
+      usage: /<command>
+      description: basic UHC command.
+   config:
+      usage: /<command>
+      description: set the config for this UHC.
+   scatter:
+      usage: /<command>
+      description: Scatter players across the UHC map.
+   team:
+      usage: /<command>
+      description: Create your teams.
+   heal:
+      usage: /<command>
+      description: Heal a player or everyone.
+   surface:
+      usage: /<command>
+      description: Teleport a player to surface.
+   whitelist:
+      usage: /<command>
+      aliases: [wl]
+      description: Manage the whitelist.
+   sendcoords:
+      usage: /<command>
+      aliases: [sc]
+      description: Send your coords to your teammates.
+   pm:
+      usage: /<command>
+      description: Send a private message to your teammates.
+   helpop:
+      usage: /<command>
+      description: Send a helpop to the moderators.
+   setstate:
+      usage: /<command>
+      description: Set the state.
+   uhcdebug:
+      usage: /<command>
+      description: A command made for Timmy to test the UHC.
+   gameinfo:
+      usage: /<command>
+      description: Open the game info menu.
+   timeleft:
+      usage: /<command>
+      description: Look at the game timers.
+   health:
+      usage: /<command>
+      aliases: [h]
+      description: Look at someone's health.
+   globalmute:
+      usage: /<command>
+      description: Look at someone's health.
+   scenario:
+      usage: /<command>
+      aliases: [scen]
+      description: Look at the enabled scenario's.
+   shrink:
+      usage: /<command>
+      description: Shrink the border to a chosen size.
+   pvp:
+      usage: /<command>
+      description: Toggle pvp mode.
+   teleport:
+      usage: /<command>
+      aliases: [tp]
+      description: Teleport to a player
+   settickspeed:
+      usage: /<command>
+      aliases: [sts]
+      description: Set the tick speed
+   invsee:
+      usage: /<command>
+      description: Look into someone's inventory.
+   biomelist:
+      usage: /<command>
+      aliases: [bl]
+      description: Look at the biome color list.
+   switcherores:
+      usage: /<command>
+      aliases: [so]
+      description: Look at the switcher ores list.
+   latespawn:
+      usage: /<command>
+      description: Latespawn a player.
+   staffchat:
+      usage: /<command>
+      aliases: [staff]
+      description: Talk in staff chat.
+   butcher:
+      usage: /<command>
+      description: Butcher all mobs.
+   respawn:
+      usage: /<command>
+      description: Respawn a player.
+   skull:
+      usage: /<command>
+      description: Get a player skull.
+   teaminventory:
+      usage: /<command>
+      aliases: [ti]
+      description: Open up teaminventory.
+   backpack:
+      usage: /<command>
+      aliases: [bp]
+      description: Open up your private backpack.
+   postdiamond:
+      usage: /<command>
+      description: Post diamonds to catch xrayers.
+   gamemode:
+      usage: /<command>
+      aliases: [gm]
+      description: Change your own or someone elses gamemode.
+   weakestlink:
+      usage: /<command>
+      description: Check the weakest link.
+   molehelp:
+      usage: /<command>
+      description: Moles command
+   mcc:
+      usage: /<command>
+      description: Moles command
+   mcl:
+      usage: /<command>
+      description: Moles command
+   mcp:
+      usage: /<command>
+      description: Moles command
+   setslot:
+      usage: /<command>
+      description: Set the slots of the server.
+   kicksolo:
+      usage: /<command>
+      description: Kick all solo's.
+   shrinks:
+      usage: /<command>
+      description: Look at the border shrinks.
+   pregen:
+      usage: /<command>
+      description: Pregen the map.
+   finishpregen:
+      usage: /<command>
+      description: Finish the pregen.
+   maintenance:
+      usage: /<command>
+      description: Change the maintenance mode for the server.
+   ping:
+      usage: /<command>
+      aliases: [ms]
+      description: Check your ping.
+   lag:
+      usage: /<command>
+      description: Check the server performance.
+   spawn:
+      usage: /<command>
+      description: Teleport to spawn.
+   rt:
+      usage: /<command>
+      description: Manage random teams.
+   postgame:
+      usage: /<command>
+      description: Post games on twitter and discord.
+   playerinfo:
+      usage: /<command>
+      description: Look at someone's info.
+      aliases: [pi]
+   bestpve:
+      usage: /<command>
+      description: Manage the BestPvE scenario.
+   bestpvelist:
+      usage: /<command>
+      description: Look at the BestPvE list.
+   arena:
+      usage: /<command>
+      description: Manage the arena.
+   timer:
+      usage: /<command>
+      description: Set up a timer.
+   slavereset:
+      usage: /<command>
+      description: Slavemarket command.
+   slaveowner:
+      usage: /<command>
+      description: Slavemarket command.
+   startbid:
+      usage: /<command>
+      description: Slavemarket command.
+   bid:
+      usage: /<command>
+      description: Slavemarket command.
+   end:
+      usage: /<command>
+      description: End the UHC.
+   void:
+      usage: /<command>
+      description: Generate a voidscape world.
+   status:
+      usage: /<command>
+      description: Look at the periodofresistance status.
+   combatlog:
+      usage: /<command>
+      aliases: [cl]
+      description: Check if your in combat.
+   mlg:
+      usage: /<command>
+      description: Do some epic mlg's.
+   createdungeon:
+      usage: /<command>
+      description: Create a dungeoneering world.
+
+

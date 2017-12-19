@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ScyleUHC:jar">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="archive" name="BuzzardUHC.jar">
+      <element id="module-output" name="ScyleUHC" />
+    </root>
+  </artifact>
+</component>

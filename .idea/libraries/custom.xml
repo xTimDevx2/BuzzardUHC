@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="custom">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/custom.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/custom.jar!/" />
+    </SOURCES>
+  </library>
+</component>
